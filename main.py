@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/code")
 def code():
-    return render_template('ai_deep.html')
+    return render_template('index.html')
 
 @app.route("/predict", methods=["POST"])
 def predict():
